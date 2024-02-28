@@ -1,13 +1,14 @@
 /* style.css */
 .flex-container {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 600px;
     display: flex;
     flex-wrap: wrap;
+    background-color: dimgrey;
 }
 .grid-item {
     flex: 1 0 auto;
-    border: 1px solid black;
+    border: 1px whitesmoke;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -19,6 +20,30 @@
     flex-wrap: wrap;
 }
 .btn {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
+}
+.display-container{
+    display: flex;
+    align-items: center;
+}
+.display {
+    height: 90px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#operator {
+    background-color: darkolivegreen;
+    color: beige;
+}
+#equal {
+    background-color:darkgreen;
+    color: beige;
+}
+
+#delete, #clear {
+    background-color: olivedrab;
+    color: white
 }
